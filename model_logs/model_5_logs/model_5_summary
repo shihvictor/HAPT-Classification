@@ -1,0 +1,45 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 561, 1)]          0         
+                                                                 
+ conv1d (Conv1D)             (None, 561, 32)           128       
+                                                                 
+ conv1d_1 (Conv1D)           (None, 561, 32)           3104      
+                                                                 
+ batch_normalization (BatchN  (None, 561, 32)          128       
+ ormalization)                                                   
+                                                                 
+ activation (Activation)     (None, 561, 32)           0         
+                                                                 
+ dropout (Dropout)           (None, 561, 32)           0         
+                                                                 
+ conv1d_2 (Conv1D)           (None, 561, 32)           3104      
+                                                                 
+ conv1d_3 (Conv1D)           (None, 561, 32)           3104      
+                                                                 
+ batch_normalization_1 (Batc  (None, 561, 32)          128       
+ hNormalization)                                                 
+                                                                 
+ activation_1 (Activation)   (None, 561, 32)           0         
+                                                                 
+ dropout_1 (Dropout)         (None, 561, 32)           0         
+                                                                 
+ flatten (Flatten)           (None, 17952)             0         
+                                                                 
+ dense (Dense)               (None, 64)                1148992   
+                                                                 
+ dropout_2 (Dropout)         (None, 64)                0         
+                                                                 
+ dense_1 (Dense)             (None, 32)                2080      
+                                                                 
+ dropout_3 (Dropout)         (None, 32)                0         
+                                                                 
+ dense_2 (Dense)             (None, 12)                396       
+                                                                 
+=================================================================
+Total params: 1,161,164
+Trainable params: 1,161,036
+Non-trainable params: 128
+_________________________________________________________________
