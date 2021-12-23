@@ -1,6 +1,12 @@
-Classification of Human Activities and Postural Transitions
+# Classification of Human Activities and Postural Transitions
 
 Authors: Victor Shih, Orion Peter Fernandes
+
+## Table of Contents
+* [Quick Overview of File Structures](#Quick-Overview-of-File-Structures)
+* [](#)
+
+## Quick Overview of File Structures
 
 Place data files in directories like so. data dir is on the same level as the .py files. 
 
