@@ -10,10 +10,10 @@ Authors: Victor Shih, Orion Peter Fernandes
 
 Place data files in directories like so. data dir is on the same level as the .py files. 
 
-data/test/X_test.txt
-data/test/y_test.txt
-data/train/X_train.txt
-data/train/y_train.txt
+data/test/X_test.txt  
+data/test/y_test.txt  
+data/train/X_train.txt  
+data/train/y_train.txt  
 
 
 Training data: 561 features, 7767 samples
