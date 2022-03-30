@@ -1,6 +1,6 @@
 # Classification of Human Activities and Postural Transitions
 
-Authors: Victor Shih, Orion Peter Fernandes
+Authors: Victor Shih, Orion Peter Fernandes  
 For UCI MECPS program's ECPS 205 Sensors, Actuators and Sensor Networks course.  
 
 ## Table of Contents
