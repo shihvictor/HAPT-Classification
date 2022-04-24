@@ -26,3 +26,6 @@ y_test shape = (3162, 1)
 Run mainFile.py to train.
 
 Results are stored in model_logs.
+
+## Data source
+http://archive.ics.uci.edu/ml/datasets/smartphone-based+recognition+of+human+activities+and+postural+transitions
