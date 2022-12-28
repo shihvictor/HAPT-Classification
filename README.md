@@ -17,15 +17,15 @@ data/train/X_train.txt
 data/train/y_train.txt  
 
 
-Training data: 561 features, 7767 samples
-x_train shape = (7767, 561, 1)
-y_train shape = (7767, 1)
-x_test shape = (3162, 561, 1)
-y_test shape = (3162, 1)
+Training data: 561 features, 7767 samples  
+x_train shape = (7767, 561, 1)  
+y_train shape = (7767, 1)  
+x_test shape = (3162, 561, 1)  
+y_test shape = (3162, 1)  
 
-Run mainFile.py to train.
+Run mainFile.py to train.  
 
-Results are stored in model_logs.
+Results are stored in model_logs.  
 
 ## Data source
 http://archive.ics.uci.edu/ml/datasets/smartphone-based+recognition+of+human+activities+and+postural+transitions
